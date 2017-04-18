@@ -1,0 +1,41 @@
+nohup: ignoring input
+login
+{ _id: 58f00a7d5b11ff8c2723a172,
+  email: 'test@byu.edu',
+  hashed_password: 'NyaDNd1pMQRb3N+SYj/4GaZCRLU9DnRtQ4eXNJ1NpXg=',
+  username: 'test',
+  __v: 0 }
+(node:10801) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+login
+{ _id: 58f1b0a5f88bf7312a4eb955,
+  email: '123@123.com',
+  hashed_password: 'pmWkWSBCL51Bfkhn79xPuKBKHz//H6B+mY6G9/eieuM=',
+  username: 'test123',
+  __v: 0 }
+login
+{ _id: 58f1b0a5f88bf7312a4eb955,
+  email: '123@123.com',
+  hashed_password: 'pmWkWSBCL51Bfkhn79xPuKBKHz//H6B+mY6G9/eieuM=',
+  username: 'test123',
+  __v: 0,
+  color: 'fuchsia' }
+login
+{ _id: 58f1b0a5f88bf7312a4eb955,
+  email: '123@123.com',
+  hashed_password: 'pmWkWSBCL51Bfkhn79xPuKBKHz//H6B+mY6G9/eieuM=',
+  username: 'test123',
+  __v: 0,
+  color: 'fuchsia' }
+login
+{ _id: 58f1b0a5f88bf7312a4eb955,
+  email: '123@123.com',
+  hashed_password: 'pmWkWSBCL51Bfkhn79xPuKBKHz//H6B+mY6G9/eieuM=',
+  username: 'test123',
+  __v: 0,
+  color: 'fuchsia' }

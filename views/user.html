@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <title>User Login and Sessions</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+  <div class="form-container" ng-controller="myController">
+    <p class="form-header">User Profile</p>
+    <form class="form-group" method="POST" action="/user/update">
+       <label>Username:</label>
+         <input class="form-control" type="text" name="username"
+                ng-model="user.username" disabled><br>
+       <label>Email:</label>
+         <input class="form-control" type="email" name="email"
+                ng-model="user.email"><br>
+       <label>Favorite Color:</label>
+         <input class="form-control" type="text" name="color"
+                ng-model="user.color"><br>
+       <input class="btn btn-default" type="submit" value="Save">
+    </form>
+  </div>
+  <form class="form-group" method="POST" action="/user/delete">
+    <input class="btn btn-default" type="submit" value="Delete User">
+  </form>
+  <hr><%= msg %>
+  <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+  <script src="/static/js/my_app.js"></script>
+  <a href="/">Home</a>
+</body>
+</html>
